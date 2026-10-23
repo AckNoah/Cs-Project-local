@@ -2,7 +2,7 @@
 import streamlit as st
 
 st.set_page_config(
-    page_title="Snow-kNOw Explore your ski holidays optimally",
+    page_title="Snow-kNOw Now explore your ski holidays optimally",
     page_icon="❄️",
     layout="wide"
 )
