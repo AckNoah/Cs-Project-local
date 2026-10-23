@@ -7,12 +7,12 @@ st.set_page_config(
     layout="wide"
 )
 
-st.title("Snow-kNOw")
-st.subheader("Find your best week on snow.")
+st.title("❄️ Snow-kNOw")
+st.subheader("Plan your perfect ski holiday")
 
 st.write(
-    "Make smarter ski holiday decisions "
-    "with snow reliability insights."
+    "Find ski destinations with reliable snow "
+    "conditions and plan your next winter holiday."
 )
 
 st.divider()
@@ -20,9 +20,20 @@ st.divider()
 col1, col2 = st.columns(2)
 
 with col1:
-    st.header("Ski Holiday Planner")
-    st.write("Find the right resort for your ski week.")
+    st.subheader("🎿 Ski Holiday Planner")
+    st.write(
+        "Discover ski destinations and compare "
+        "snow conditions."
+    )
 
 with col2:
-    st.header("Holiday Home Advisor")
-    st.write("Explore future snow reliability.")
+    st.subheader("🏡 Holiday Home Advisor")
+    st.write(
+        "Find the right region for your future "
+        "holiday home."
+    )
+
+st.info(
+    "Use the navigation menu on the left "
+    "to explore Snow-kNOw."
+)
